@@ -1,0 +1,45 @@
+body{
+
+	text-align: center;
+}
+
+.box{
+display: inline-block;
+height: 300px;
+width: 45%;
+
+}
+
+.blue{
+	background-color:blue;
+}
+
+.yellow{
+
+	background-color:yellow;
+}
+
+.green{
+
+	background-color:green; 
+}
+
+.orange{
+
+	background-color:orange; 
+}
+
+@media (max-width:600px) {
+.yellow{
+	display:none;
+}	
+.green{
+	display:none;
+}
+
+}
+@media(max-width:1000px){
+.box{
+	width:100%;
+}	
+}
